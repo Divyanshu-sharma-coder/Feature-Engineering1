@@ -1,0 +1,86 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.pyd
+*.pyo
+*.pkl
+*.joblib
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# ==========================
+# Jupyter / IPython
+# ==========================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.profile
+*.ipynb_convert.py
+
+# ==========================
+# Data / Artifacts
+# ==========================
+data/raw/*
+data/interim/*
+data/clean/*
+!data/.gitkeep          # keep empty folders tracked
+artifacts/
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.ckpt
+
+# ==========================
+# Logs / Reports
+# ==========================
+*.log
+logs/
+wandb/
+mlruns/
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# ==========================
+# Configs / Secrets
+# ==========================
+*.json
+*.yaml
+*.yml
+!configs/*.yaml          # but keep pipeline configs
+*.ini
+*.cfg
+secrets.*
+token_*.txt
+*.key
+*.pem
+
+# ==========================
+# IDEs / Editors
+# ==========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+# OS files
+# ==========================
+.DS_Store
+Thumbs.db
